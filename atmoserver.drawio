@@ -1,24 +1,9 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0" version="24.7.17">
   <diagram name="Page-1" id="FNupXKHGurG4gmG0nF9r">
-    <mxGraphModel dx="1407" dy="1627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2887" dy="1863" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="O3PTXH11fTzjpiajHuYh-29" value="&lt;div&gt;esbswim-dev&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="20" y="50" width="170" height="120" as="geometry" />
-        </mxCell>
-        <mxCell id="O3PTXH11fTzjpiajHuYh-30" value="&lt;div&gt;&lt;div&gt;esbswim-dev-node1&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-29">
-          <mxGeometry y="30" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O3PTXH11fTzjpiajHuYh-31" value="&lt;div&gt;esbswim-dev-node2&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-29">
-          <mxGeometry y="60" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O3PTXH11fTzjpiajHuYh-32" value="&lt;div&gt;esbswim-dev-node3&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-29">
-          <mxGeometry y="90" width="170" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="O3PTXH11fTzjpiajHuYh-33" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/OpenShift.svg;" vertex="1" parent="1">
-          <mxGeometry x="90" y="-10" width="50" height="46" as="geometry" />
-        </mxCell>
         <mxCell id="O3PTXH11fTzjpiajHuYh-46" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="200" y="-230" width="370" height="410" as="geometry" />
         </mxCell>
@@ -204,6 +189,45 @@
         </mxCell>
         <mxCell id="O3PTXH11fTzjpiajHuYh-116" value="" style="image;html=1;image=img/lib/clip_art/networking/Firewall_02_128x128.png" vertex="1" parent="1">
           <mxGeometry x="850" y="-334" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-158" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="-290" y="-230" width="390" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-117" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry width="390" height="410" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-29" value="&lt;div&gt;esbswim-dev&lt;/div&gt;" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry x="230" y="280" width="150" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-30" value="&lt;div&gt;&lt;div&gt;esbswim-dev-node1&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-29">
+          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-31" value="&lt;div&gt;esbswim-dev-node2&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-29">
+          <mxGeometry y="60" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-32" value="&lt;div&gt;esbswim-dev-node3&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-29">
+          <mxGeometry y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-33" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/OpenShift.svg;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry x="10" y="7" width="50" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-118" value="" style="group" vertex="1" connectable="0" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry x="70" y="10" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-119" value="&lt;div&gt;API-Gateway&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-118">
+          <mxGeometry width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-120" value="" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.api_gateway;fillColor=#D9A741;gradientColor=none;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-118">
+          <mxGeometry x="10" y="5" width="21.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-138" value="AMQP-Endpoint" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry x="230" y="10" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-139" value="" style="sketch=0;aspect=fixed;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;fillColor=#00188D;shape=mxgraph.azure.queue_generic" vertex="1" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry x="340" y="10" width="40" height="12" as="geometry" />
+        </mxCell>
+        <mxCell id="O3PTXH11fTzjpiajHuYh-157" value="&lt;div&gt;ESB-EXC-DEV&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="O3PTXH11fTzjpiajHuYh-158">
+          <mxGeometry x="260" y="130" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
