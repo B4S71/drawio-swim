@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:134.0) Gecko/20100101 Firefox/134.0" version="24.9.1">
   <diagram name="Seite-1" id="N6wP8AmEV-oBOFYX_fqh">
-    <mxGraphModel dx="3312" dy="922" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1641" dy="454" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -24,6 +24,9 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="usbf3NHTf79TAdZlBes0-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-4" target="usbf3NHTf79TAdZlBes0-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="usbf3NHTf79TAdZlBes0-4" value="PROD Z1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="260" y="100" width="120" height="60" as="geometry" />
         </mxCell>
@@ -37,19 +40,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="usbf3NHTf79TAdZlBes0-72" style="edgeStyle=orthogonalEdgeStyle;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-5" target="usbf3NHTf79TAdZlBes0-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="usbf3NHTf79TAdZlBes0-5" value="PROD Z2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
           <mxGeometry x="460" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-6" target="usbf3NHTf79TAdZlBes0-51">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-6" value="PROD-BACKUP Z2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="usbf3NHTf79TAdZlBes0-6" value="PROD-STANDBY-Z2" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="620" y="100" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-59" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-7" target="usbf3NHTf79TAdZlBes0-52">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-7" value="PROD-BACKUP Z1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
+        <mxCell id="usbf3NHTf79TAdZlBes0-7" value="PROD-STANDBY-Z1" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="100" y="100" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="usbf3NHTf79TAdZlBes0-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;startArrow=classic;startFill=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-7" target="usbf3NHTf79TAdZlBes0-6">
@@ -150,32 +150,11 @@
         <mxCell id="usbf3NHTf79TAdZlBes0-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-42" target="usbf3NHTf79TAdZlBes0-37">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-42" value="API-Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+        <mxCell id="usbf3NHTf79TAdZlBes0-42" value="API-Gateway" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="-160" y="80" width="80" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-43" value="API-Gateway" style="sketch=0;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+        <mxCell id="usbf3NHTf79TAdZlBes0-43" value="API-Gateway" style="sketch=1;outlineConnect=0;fontColor=#232F3E;gradientColor=none;strokeColor=#ffffff;fillColor=#232F3E;dashed=0;verticalLabelPosition=middle;verticalAlign=bottom;align=center;html=1;whiteSpace=wrap;fontSize=10;fontStyle=1;spacing=3;shape=mxgraph.aws4.productIcon;prIcon=mxgraph.aws4.api_gateway;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
           <mxGeometry x="920" y="75" width="80" height="110" as="geometry" />
-        </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-51" value="&lt;div&gt;ETS-BACKUP Z2&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="620" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-52" value="&lt;div&gt;ETS-BACKUP Z1&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;fontFamily=Comic Sans MS;" vertex="1" parent="1">
-          <mxGeometry x="100" y="200" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-53" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-52" target="usbf3NHTf79TAdZlBes0-51">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="470" as="sourcePoint" />
-            <mxPoint x="690" y="470" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="160" y="390" />
-              <mxPoint x="680" y="390" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="usbf3NHTf79TAdZlBes0-54" value="" style="shape=message;html=1;outlineConnect=0;labelBackgroundColor=none;rounded=0;sketch=1;curveFitting=1;jiggle=2;" vertex="1" parent="usbf3NHTf79TAdZlBes0-53">
-          <mxGeometry width="20" height="14" relative="1" as="geometry">
-            <mxPoint x="-10" y="-7" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="usbf3NHTf79TAdZlBes0-57" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=classic;startFill=1;labelBackgroundColor=none;fontColor=default;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="usbf3NHTf79TAdZlBes0-2" target="usbf3NHTf79TAdZlBes0-18">
           <mxGeometry relative="1" as="geometry">
