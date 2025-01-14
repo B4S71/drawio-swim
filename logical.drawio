@@ -273,8 +273,44 @@
         <mxCell id="RPAZHllOYNU17tTeJJBk-32" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Physische Übersicht&lt;/h1&gt;&lt;p&gt;Abhängigkeiten Physischer Systeme bezugnehmend auf Redundanzen, Datenweiterleitung und Duplizierung, sowie Standby-Systeme (CARE).&lt;/p&gt;&lt;p&gt;Aussageziel: Upgrade-Strategie, SLA-Erreichbarkeit&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="-130" width="530" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="RPAZHllOYNU17tTeJJBk-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Logische Übersicht&lt;/h1&gt;&lt;p&gt;Abhängigkeiten logischer Systeme bezugnehmend auf Datenstrom-Visualisierung (REST/AMQP)&lt;/p&gt;&lt;p&gt;Aussageziel: Abhängigkeitsbaum, Strategische Partner&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RPAZHllOYNU17tTeJJBk-33" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Logische Übersicht&lt;/h1&gt;&lt;p&gt;Abhängigkeiten logischer Systeme bezugnehmend auf Datenstrom-Visualisierung (REST/AMQP)&lt;/p&gt;&lt;p&gt;Inklusive Management-Pane&lt;/p&gt;&lt;p&gt;Aussageziel: Abhängigkeitsbaum, Strategische Partner&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-140" y="610" width="530" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-34" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="760" as="sourcePoint" />
+            <mxPoint x="120" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="RPAZHllOYNU17tTeJJBk-35" target="RPAZHllOYNU17tTeJJBk-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-35" value="API-Gateway" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=classic;startFill=1;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="RPAZHllOYNU17tTeJJBk-36" target="RPAZHllOYNU17tTeJJBk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-36" value="Session-Controller" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-270" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="RPAZHllOYNU17tTeJJBk-37" target="RPAZHllOYNU17tTeJJBk-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-37" value="EACP/PKI" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
+          <mxGeometry x="-450" y="760" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-38" value="Monitoring" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="1030" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="RPAZHllOYNU17tTeJJBk-39" target="RPAZHllOYNU17tTeJJBk-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="RPAZHllOYNU17tTeJJBk-39" target="RPAZHllOYNU17tTeJJBk-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RPAZHllOYNU17tTeJJBk-39" value="Topic Management" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;rounded=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1030" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
