@@ -172,17 +172,32 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-108" value="Message-Broker" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=right;" vertex="1" parent="1">
-          <mxGeometry x="761.53" y="1210" width="160" height="60" as="geometry" />
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-116" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="300" y="1190" width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-109" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.amqp_advanced_message_queuing_protocol;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="1">
-          <mxGeometry x="771.53" y="1216" width="45.9" height="48" as="geometry" />
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-115" value="API-Gateway" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=right;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-116">
+          <mxGeometry width="160" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-112" value="Web Service" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=right;" vertex="1" parent="1">
-          <mxGeometry x="761.53" y="1320" width="160" height="60" as="geometry" />
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-114" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF0F0F;strokeColor=none;shape=mxgraph.alibaba_cloud.apigateway;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-116">
+          <mxGeometry x="16" y="9.150000000000091" width="43.199999999999996" height="41.699999999999996" as="geometry" />
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-113" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=light-dark(#0050EF,#161EFF);strokeColor=none;shape=mxgraph.alibaba_cloud.webplus_web_app_service;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#ffffff;" vertex="1" parent="1">
-          <mxGeometry x="772.43" y="1327.5" width="45" height="45" as="geometry" />
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-117" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="761.53" y="1190" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-108" value="Message-Broker" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=right;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-117">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-109" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#FF6A00;strokeColor=none;shape=mxgraph.alibaba_cloud.amqp_advanced_message_queuing_protocol;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-117">
+          <mxGeometry x="10" y="6" width="45.9" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-118" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="761.54" y="1270" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-112" value="Web Service" style="rounded=0;whiteSpace=wrap;html=1;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;align=right;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-118">
+          <mxGeometry width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-113" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=light-dark(#0050EF,#161EFF);strokeColor=none;shape=mxgraph.alibaba_cloud.webplus_web_app_service;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#ffffff;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-118">
+          <mxGeometry x="10.899999999999977" y="7.5" width="45" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
