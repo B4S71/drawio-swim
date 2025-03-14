@@ -269,7 +269,7 @@
         <mxCell id="o4Bq1kwihaJRbuAKdQ8c-134" value="" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=light-dark(#FF9933,#161EFF);strokeColor=none;shape=mxgraph.alibaba_cloud.webplus_web_app_service;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=#ffffff;" vertex="1" parent="o4Bq1kwihaJRbuAKdQ8c-143">
           <mxGeometry x="10.899999999999977" y="7.5" width="45" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-145" value="Return Topic ID" style="edgeStyle=entityRelationEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeColor=#FF8000;" edge="1" parent="1" source="o4Bq1kwihaJRbuAKdQ8c-133" target="o4Bq1kwihaJRbuAKdQ8c-139">
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-145" value="Return Topic ID /&lt;br&gt;Connectionstring" style="edgeStyle=entityRelationEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;strokeColor=#FF8000;" edge="1" parent="1" source="o4Bq1kwihaJRbuAKdQ8c-133" target="o4Bq1kwihaJRbuAKdQ8c-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
