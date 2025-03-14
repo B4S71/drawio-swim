@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.0">
   <diagram name="Seite-1" id="NQnfuamcye6pMvKZ9y1j">
-    <mxGraphModel dx="2267" dy="883" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1889" dy="736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -108,7 +108,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-93" style="edgeStyle=entityRelationEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.187;entryY=0.365;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=classic;startFill=1;" edge="1" parent="1" source="o4Bq1kwihaJRbuAKdQ8c-58" target="o4Bq1kwihaJRbuAKdQ8c-91">
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-93" value="LARA" style="edgeStyle=entityRelationEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.187;entryY=0.365;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;startArrow=classic;startFill=1;" edge="1" parent="1" source="o4Bq1kwihaJRbuAKdQ8c-58" target="o4Bq1kwihaJRbuAKdQ8c-91">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="717" y="380" />
@@ -157,7 +157,7 @@
         <mxCell id="o4Bq1kwihaJRbuAKdQ8c-104" value="E-AMAN" style="points=[];aspect=fixed;html=1;align=center;shadow=0;dashed=0;fillColor=#001DBC;strokeColor=#001DBC;shape=mxgraph.alibaba_cloud.onsmqtt_micro_message_queuing_telemetry_transport;hachureGap=4;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;fontColor=default;verticalAlign=bottom;spacingBottom=-15;" vertex="1" parent="1">
           <mxGeometry x="1340" y="710" width="54.900000000000006" height="39.300000000000004" as="geometry" />
         </mxCell>
-        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-105" value="AMAN-SEQ" style="edgeStyle=entityRelationEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.018;entryY=0.443;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=2;exitX=0.995;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="o4Bq1kwihaJRbuAKdQ8c-91" target="o4Bq1kwihaJRbuAKdQ8c-104">
+        <mxCell id="o4Bq1kwihaJRbuAKdQ8c-105" value="AMAN-SEQ&lt;br&gt;(TTL/TTG)" style="edgeStyle=entityRelationEdgeStyle;sketch=1;hachureGap=4;jiggle=2;curveFitting=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Architects Daughter;fontSource=https%3A%2F%2Ffonts.googleapis.com%2Fcss%3Ffamily%3DArchitects%2BDaughter;entryX=0.018;entryY=0.443;entryDx=0;entryDy=0;fillColor=#1ba1e2;strokeColor=#006EAF;strokeWidth=2;exitX=0.995;exitY=0.888;exitDx=0;exitDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="o4Bq1kwihaJRbuAKdQ8c-91" target="o4Bq1kwihaJRbuAKdQ8c-104">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="919" y="470" as="sourcePoint" />
             <mxPoint x="1310" y="606" as="targetPoint" />
