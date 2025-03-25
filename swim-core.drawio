@@ -937,6 +937,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="560" y="3910" as="sourcePoint" />
             <mxPoint x="365.24999999999955" y="3913.0476190476184" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="463" y="3910" />
+              <mxPoint x="463" y="3913" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-175" value="4. Create Topic" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;jumpStyle=line;" edge="1" parent="1">
@@ -1022,6 +1026,10 @@
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="612.2350000000001" y="4090" as="sourcePoint" />
             <mxPoint x="359.5" y="4209.24" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="612" y="4130" />
+              <mxPoint x="359" y="4130" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-178" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.878;entryY=1.007;entryDx=0;entryDy=0;entryPerimeter=0;jumpStyle=line;" edge="1" parent="1">
