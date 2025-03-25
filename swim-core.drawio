@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.1.1">
   <diagram name="Seite-1" id="NQnfuamcye6pMvKZ9y1j">
-    <mxGraphModel dx="3354" dy="1107" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2088" dy="633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -467,6 +467,29 @@
         <mxCell id="-O9GStA2J_KhZqj3pRJC-14" value="Subscription Request Management&lt;br&gt;Request and Reply" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1.01;exitY=0.057;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-5" target="-O9GStA2J_KhZqj3pRJC-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-22" value="FFICE_PUBLICATION Topic Subscription" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-5" target="-O9GStA2J_KhZqj3pRJC-7">
+          <mxGeometry x="-0.0006" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-4" y="2275" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-4" y="2513" as="sourcePoint" />
+            <mxPoint x="440" y="2510.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-4" y="2511" />
+              <mxPoint x="218" y="2511" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-51" value="FlightDepartureRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-35">
+          <mxGeometry x="-0.0762" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-5" value="Topsky ATC" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="-210" y="2150" width="206" height="460" as="geometry" />
         </mxCell>
@@ -484,8 +507,32 @@
         <mxCell id="-O9GStA2J_KhZqj3pRJC-7" value="Publication Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="440" y="2260" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-8" target="-O9GStA2J_KhZqj3pRJC-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-48" value="FlightDataRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-39">
+          <mxGeometry x="-0.2176" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-8" value="Flight Data Request Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="440" y="2360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-9" target="-O9GStA2J_KhZqj3pRJC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-52" value="FlightDepartureRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-41">
+          <mxGeometry x="-0.156" y="3" relative="1" as="geometry">
+            <mxPoint x="-17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-9" target="-O9GStA2J_KhZqj3pRJC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-56" value="FlightArrivalRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-43">
+          <mxGeometry x="-0.2844" y="-2" relative="1" as="geometry">
+            <mxPoint x="16" y="-2" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-9" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="440" y="2460" width="120" height="130" as="geometry" />
@@ -495,6 +542,14 @@
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-11" value="Publication Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;strokeColor=#006EAF;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1210" y="2260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-12" target="-O9GStA2J_KhZqj3pRJC-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-50" value="FlightDataReply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-40">
+          <mxGeometry x="0.3248" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-12" value="Flight Data Request Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1210" y="2360" width="120" height="60" as="geometry" />
@@ -516,6 +571,115 @@
         <mxCell id="-O9GStA2J_KhZqj3pRJC-21" value="(Pause Resume Delete Sync)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-19">
           <mxGeometry x="-0.1081" y="2" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-24" value="FficePublicationMessage" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-7" target="-O9GStA2J_KhZqj3pRJC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-7" target="-O9GStA2J_KhZqj3pRJC-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="2260" as="sourcePoint" />
+            <mxPoint x="1104" y="2270" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-45" value="FFICE_PUBLICATION Topic Subscription" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-25">
+          <mxGeometry x="-0.1877" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-11" target="-O9GStA2J_KhZqj3pRJC-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1104" y="2285" as="sourcePoint" />
+            <mxPoint x="660" y="2285" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-46" value="FficePublicationMessage" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-26">
+          <mxGeometry x="0.2703" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-5" target="-O9GStA2J_KhZqj3pRJC-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="16" y="2350" as="sourcePoint" />
+            <mxPoint x="460" y="2360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="120" y="2375" />
+              <mxPoint x="120" y="2375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-47" value="FlightDataRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-27">
+          <mxGeometry x="-0.0322" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-8" target="-O9GStA2J_KhZqj3pRJC-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="2390" />
+              <mxPoint x="110" y="2390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-49" value="FlightDataReply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-29">
+          <mxGeometry x="0.1017" y="2" relative="1" as="geometry">
+            <mxPoint x="5" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.003;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-9" target="-O9GStA2J_KhZqj3pRJC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-53" value="FlightDepartureReply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-36">
+          <mxGeometry x="0.2826" y="3" relative="1" as="geometry">
+            <mxPoint x="44" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.01;entryY=0.616;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-5" target="-O9GStA2J_KhZqj3pRJC-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="2540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="80" y="2540" />
+              <mxPoint x="80" y="2540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-55" value="FlightArrivalRequest" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-37">
+          <mxGeometry x="-0.0941" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=0.994;entryY=0.885;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-9" target="-O9GStA2J_KhZqj3pRJC-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-57" value="FlightArrivalReply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-38">
+          <mxGeometry x="0.0251" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.99;entryY=0.357;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-13" target="-O9GStA2J_KhZqj3pRJC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="885" y="2506" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-54" value="FlightDepartureReply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-42">
+          <mxGeometry x="0.2855" y="1" relative="1" as="geometry">
+            <mxPoint x="17" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.981;entryY=0.621;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-13" target="-O9GStA2J_KhZqj3pRJC-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1050" y="2541" />
+              <mxPoint x="1050" y="2541" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-58" value="FlightArrivalReply" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-O9GStA2J_KhZqj3pRJC-44">
+          <mxGeometry x="0.2519" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
