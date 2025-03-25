@@ -729,11 +729,14 @@
         <mxCell id="-O9GStA2J_KhZqj3pRJC-69" value="Publication Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="430" y="2770" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="-O9GStA2J_KhZqj3pRJC-129" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-72" target="-O9GStA2J_KhZqj3pRJC-121">
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-141" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-72" target="-O9GStA2J_KhZqj3pRJC-134">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-72" value="Flight Data Request Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="430" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-143" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-77" target="-O9GStA2J_KhZqj3pRJC-137">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-77" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="430" y="2970" width="120" height="130" as="geometry" />
@@ -752,6 +755,9 @@
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-82" value="Flight Data Request Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fa6800;strokeColor=#C73500;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1200" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-146" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-83" target="-O9GStA2J_KhZqj3pRJC-137">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="-O9GStA2J_KhZqj3pRJC-83" value="Notification Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
           <mxGeometry x="1200" y="2970" width="120" height="130" as="geometry" />
@@ -872,17 +878,20 @@
         <mxCell id="-O9GStA2J_KhZqj3pRJC-128" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-121" target="-O9GStA2J_KhZqj3pRJC-68">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-O9GStA2J_KhZqj3pRJC-131" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-121" target="-O9GStA2J_KhZqj3pRJC-72">
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-142" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-134" target="-O9GStA2J_KhZqj3pRJC-72">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-O9GStA2J_KhZqj3pRJC-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.701;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-77" target="-O9GStA2J_KhZqj3pRJC-121">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-O9GStA2J_KhZqj3pRJC-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-121" target="-O9GStA2J_KhZqj3pRJC-77">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="-O9GStA2J_KhZqj3pRJC-134" value="Flight Data Request Service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-134" value="Flight Data Request Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="801.53" y="2870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-144" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-137" target="-O9GStA2J_KhZqj3pRJC-77">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-145" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="-O9GStA2J_KhZqj3pRJC-137" target="-O9GStA2J_KhZqj3pRJC-83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-O9GStA2J_KhZqj3pRJC-137" value="Notification Client" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="801.53" y="2970" width="120" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
